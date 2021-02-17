@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     box-sizing: border-box;
 }
@@ -6,6 +11,7 @@ html {
     box-sizing: inherit;
 }
 
+/* For the navigation bar */
 #navigation {
     display: flex;
     justify-content: space-between;
@@ -25,19 +31,40 @@ html {
     padding-right: 2.5em;
 }
 
+
+/* CSS for the Hero section */
 #hero_section {
     display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5em;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.attention_message {
+    padding-top:10em
 }
 h1 {
-    color: red;
+    color: red;   
+}
+
+.sign_up {
+    border-radius: 45px;
+    padding: 1em 3em;
+    margin-top: 2em;
+    margin-left:3em;
+}
+
+.art_cover_container {
+    padding-top: 1em;
 }
 
 /* The object fit element was used to capture all the images to fit in within the same size */
 .art_cover {
-    width: 200px;
-    height: 100px;
+    width: 260px;
+    height: 300px;
     object-fit: cover;
+    padding:0 3em 3em 0;
 }
 
-/* Media Query to capture differnet screen resolutions */
-@media 
+/* The features section */
