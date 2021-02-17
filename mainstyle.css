@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5em;
+    background-color: hsla(216, 14%, 84%, 1);
+    height: 5em;
+
+}
+
+#navigation_link {
+    display: flex;    
+    list-style: none;  
+    padding: 1em 5em 1em 0;
+}
+
+#navigation_link > li {
+    padding-right: 2.5em;
+}
+
+#hero_section {
+    display: flex;
+}
+h1 {
+    color: red;
+}
+
+/* The object fit element was used to capture all the images to fit in within the same size */
+.art_cover {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+
+/* Media Query to capture differnet screen resolutions */
+@media 
