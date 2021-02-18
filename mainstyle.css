@@ -68,3 +68,16 @@ h1 {
 }
 
 /* The features section */
+
+
+/* Footer */
+footer {
+    background-color: hsla(216, 14%, 84%, 1);
+    margin-top: 5em;
+    display: flex;
+}
+
+.footer_background {
+    display: flex;
+    
+}
