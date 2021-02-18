@@ -121,7 +121,22 @@ img {
 
 /* Registeration Form */
 #registration_form {
-    border-color: ;
+    margin: 0 auto;
+    height: 35vh;
+    width: 30%;
+    background-color: hsla(216, 14%, 84%, 1);
+}
+
+#registration_form > h2{
+    padding: 1em 1em;
+}
+
+form{
+    padding-left: 5%;   
+}
+
+input {
+    width: 50%;
 }
 
 /* Footer */
