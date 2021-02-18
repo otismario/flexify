@@ -119,6 +119,11 @@ img {
     padding: 0 10em 0 5em;
 }
 
+/* Registeration Form */
+#registration_form {
+    border-color: ;
+}
+
 /* Footer */
 footer {
     background-color: hsla(216, 14%, 84%, 1);
