@@ -1,0 +1,19 @@
+{
+  "name": "Laimoon_form",
+  "version": "1.0.0",
+  "description": "The Flexify music app will be a platform for music lovers to stream, download and upload songs of their choice. \r All users have unlimited access and will not require any credit card to access the non-premium benefits.\r You can follow us on our social media handles",
+  "main": "index.js",
+  "scripts": {
+    "dev": "postcss src/css/app.css -o public/app.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "tailwindcss": "^2.0.3"
+  },
+  "devDependencies": {
+    "postcss-cli": "^8.3.1"
+  }
+}
