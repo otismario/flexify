@@ -36,16 +36,30 @@
 
         <!-- The image grid, displays a list of selected album cover arts. -->
         <section class="">
+            <!-- Beginning of the art_cover category 1 -->
             <div class="flex flex-wrap">
-                <img src="./images/hero_section/cover1.jpg" alt="Mr_Carter" class="object-cover w-64 h-72 pt-0 pr-12 pb-12 pl-0 rounded-lg">
-                <img src="./images/hero_section/cover5.jpg" alt="Wizkid_Made_In_Lagos" class="object-cover w-64 h-72 pt-0 pr-12 pb-12 pl-0 rounded-lg">
-                <img src="./images/hero_section/cover3.jpg" alt="Girl_Like_Me_by_Black Eyed Peas" class="object-cover w-64 h-72 pt-0 pr-12 pb-12 pl-0 rounded-lg">
-            </div>
+                <div class="relative ">
+                    <img src="./images/hero_section/cover1.jpg" alt="Mr_Carter" class="object-cover w-64 h-72 pt-0 pr-12 pb-12 pl-0 rounded-lg">
+                    <!-- <audio src="./audio/Burna_Boy_Onyeka.mp3" controls>Sorry your browser doesnt support this format</audio> -->
+                    
+                    <button class="absolute inset-y-20 right-12 h-8 bg-blue-500 hover:bg-blue-700 text-white font-bold rounded-full focus:outline-none uppercase w-40 self-center">Play</button>
+                </div>
+
+                <div>
+                    <img src="./images/hero_section/cover5.jpg" alt="Wizkid_Made_In_Lagos" class="object-cover w-64 h-72 pt-0 pr-12 pb-12 pl-0 rounded-lg">
+                </div>
+
+                <div>
+                    <img src="./images/hero_section/cover3.jpg" alt="Girl_Like_Me_by_Black Eyed Peas" class="object-cover w-64 h-72 pt-0 pr-12 pb-12 pl-0 rounded-lg">
+                </div>             
+            </div> <!-- End of the art_cover category 1 -->
+
+            <!-- Art_cover category 2 starts here -->
             <div class="flex flex-wrap">
                 <img src="./images/hero_section/cover2.png" alt="Drivers_license_by_olivia" class="object-cover w-64 h-72 pt-0 pr-12 pb-12 pl-0 rounded-lg">
                 <img src="./images/hero_section/cover6.jpg" alt="African_Giant_Album" class="object-cover w-64 h-72 pt-0 pr-12 pb-12 pl-0 rounded-lg">
                 <img src="./images/hero_section/cover4.jpg" alt="Blinding_lights" class="object-cover w-64 h-72 pt-0 pr-12 pb-12 pl-0 rounded-lg">
-            </div>
+            </div> <!-- End of the art_cover category 2 -->
         </section>
         
         <section class="flex flex-col mt-8">
@@ -78,5 +92,6 @@
             </ul>
         </div>
     </footer>
+    <script src="./mainscript.js"></script>
 </body>
 </html>
