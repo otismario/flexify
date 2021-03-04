@@ -8,50 +8,58 @@
     <!-- <link rel="stylesheet" href="mainstyle.css">    -->
     <link rel="stylesheet" href="app.css">
 </head>
-<body>
-    <header>
-        <nav id="navigation">
-            <img src="./images/logo.png" alt="logo" id="logo">
 
-            <ul id="navigation_link">
-                <li><a href="#">Home</a></li>
-                <li><a href="./register.html">Register</a></li>
+<body>
+    <!-- This section takes care of the navigations -->
+    <header class= "box-border bg-gray-200 h-30 p-0 px-5">
+        <nav class="flex flex-wrap justify-between ">
+            <img src="./images/logo.png" alt="logo" class="h-auto">
+
+            <ul class="flex flex-wrap font-bold p-20 my-30 uppercase">
+                <li class="px-20 hover:text-red-700"><a href="index.html">Home</a></li>
+                <li class="hover:text-red-700"><a href="./register.html">Register</a></li>
             </ul>
         </nav>
     </header>
-    <main id="hero_section">
-        <div class="attention_message">
-            <h1 class="text-yellow-100 bg-red-600">Listening is all you need</h1>
-            <p>Start listening to millions of songs. No credit card required</p>
-            <button class="sign_up">Register now and listen for free</button>
+
+
+
+
+
+
+    <main class="mt-12 flex flex-wrap justify-around">
+        <div class="pt-40 flex flex-col">
+            <h1 class="text-3xl font-bold italic uppercase">Listening is all you need</h1>
+            <p class="text-lg" >Start listening to millions of songs. No credit card required</p>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mt-6 rounded-full focus:outline-none uppercase w-64 self-center"><a href="register.html" target="_blank"> Listen For Free</a></button>
         </div>
 
         <!-- The image grid, displays a list of selected album cover arts. -->
-        <section class="art_cover_container">
-            <div class="art_cover_box">
-                <img src="./images/hero_section/cover1.jpg" alt="Mr_Carter" class="art_cover">
-                <img src="./images/hero_section/cover5.jpg" alt="Wizkid_Made_In_Lagos" class="art_cover">
-                <img src="./images/hero_section/cover3.jpg" alt="Girl_Like_Me_by_Black Eyed Peas" class="art_cover">
+        <section class="">
+            <div class="flex flex-wrap">
+                <img src="./images/hero_section/cover1.jpg" alt="Mr_Carter" class="object-cover w-64 h-72 pt-0 pr-12 pb-12 pl-0 rounded-lg">
+                <img src="./images/hero_section/cover5.jpg" alt="Wizkid_Made_In_Lagos" class="object-cover w-64 h-72 pt-0 pr-12 pb-12 pl-0 rounded-lg">
+                <img src="./images/hero_section/cover3.jpg" alt="Girl_Like_Me_by_Black Eyed Peas" class="object-cover w-64 h-72 pt-0 pr-12 pb-12 pl-0 rounded-lg">
             </div>
-            <div class="art_cover_box">
-                <img src="./images/hero_section/cover2.png" alt="Drivers_license_by_olivia" class="art_cover">
-                <img src="./images/hero_section/cover6.jpg" alt="African_Giant_Album" class="art_cover">
-                <img src="./images/hero_section/cover4.jpg" alt="Blinding_lights" class="art_cover">
+            <div class="flex flex-wrap">
+                <img src="./images/hero_section/cover2.png" alt="Drivers_license_by_olivia" class="object-cover w-64 h-72 pt-0 pr-12 pb-12 pl-0 rounded-lg">
+                <img src="./images/hero_section/cover6.jpg" alt="African_Giant_Album" class="object-cover w-64 h-72 pt-0 pr-12 pb-12 pl-0 rounded-lg">
+                <img src="./images/hero_section/cover4.jpg" alt="Blinding_lights" class="object-cover w-64 h-72 pt-0 pr-12 pb-12 pl-0 rounded-lg">
             </div>
         </section>
-
-        <section class="features">
-            <h2>On Flexify, you will ...</h2>
-            <div class="features_section">
-                <div class="features_note">
+        
+        <section class="flex flex-col mt-8">
+            <h2 class="self-center font-bold text-xl pt-5 pb-7">On Flexify, you will ...</h2>
+            <div class="flex mt-4 mb-16">
+                <div class="mr-60 ml-10">
                     <p>Unlimited Access to <br> millions of songs</p>
                 </div>
     
-                <div class="features_note">
+                <div class="mr-60">
                     <p>You will never miss any song <br> when you are offline<p>                
                 </div>
     
-                <div class="features_note">
+                <div class="mr-40">
                     <p>Entertain Others <br> with your playlist</p>
                 </div>
             </div>
@@ -59,14 +67,14 @@
         </section>         
     </main>
 
-    <footer>
+    <footer class= "box-border bg-gray-200 flex justify-between">
         <img src="./images/logo.png" alt="logo" id="logo">
 
         <div class="contact_options">
-            <ul class="footer_background">
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Youtube</a></li>
+            <ul class="flex flex-wrap font-bold p-20 my-30 uppercase text-2xl">
+                <li class="pr-14 hover:text-purple-800"><a href="#">Instagram</a></li>
+                <li class="pr-14 hover:text-blue-800"><a href="#">Twitter</a></li>
+                <li class="pr-14 hover:text-red-800"><a href="#">Youtube</a></li>
             </ul>
         </div>
     </footer>
