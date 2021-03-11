@@ -4,7 +4,7 @@ var isPlaying = false;
 
 // Ths is function will toggle between whenthe music is played and when it is paused
 function togglePlay() {
-    isPlaying ? musicBox.onpause() : musicBox.play();
+    isPlaying ? musicBox.pause() : musicBox.play();
 };
 
 musicBox.onplaying = function() {
